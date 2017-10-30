@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: daniil
- * Date: 10/25/17
- * Time: 8:28 PM
- */
 
 namespace Recommendations;
 
