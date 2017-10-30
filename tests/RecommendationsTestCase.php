@@ -5,7 +5,7 @@ namespace Recommendations\Tests;
 use Recombee\RecommApi\Client;
 use Recombee\RecommApi\Requests;
 
-class RecommendationsTestCase extends \PHPUnit\Framework\TestCase
+class RecommendationsTestCase extends \PHPUnit_Framework_TestCase
 {
     protected $client;
 
