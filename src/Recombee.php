@@ -1,22 +1,17 @@
 <?php
 
-namespace Recommendations;
+namespace Recommendation;
 
-use \Recombee\RecommApi\Client;
 use \Recombee\RecommApi\Requests;
-use yii\base\Component;
 use Recombee\RecommApi\Exceptions;
 
-class Recombee extends Component implements Recommendations
+class Recombee implements IRecommendation
 {
-    public $apiKey;
-    public $dbName;
     protected $client;
 
-    public function init()
+    public function __construct($client)
     {
-        parent::init();
-        $this->client = new Client($this->dbName, $this->apiKey);
+        $this->client = $client;
     }
 
     /**

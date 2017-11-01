@@ -1,6 +1,6 @@
 <?php
 
-namespace Recommendations\Tests;
+namespace Recommendation\Tests;
 
 use Recombee\RecommApi\Exceptions;
 use Recombee\RecommApi\Requests\AddDetailView;

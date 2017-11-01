@@ -1,8 +1,8 @@
 <?php
 
-namespace Recommendations;
+namespace Recommendation;
 
-interface Recommendations
+interface IRecommendation
 {
     /**
      * Adds new item of given itemId to the items catalog.

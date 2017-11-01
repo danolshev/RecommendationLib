@@ -1,6 +1,6 @@
 <?php
 
-namespace Recommendations\Tests;
+namespace Recommendation\Tests;
 
 use Recombee\RecommApi\Client;
 use Recombee\RecommApi\Requests;

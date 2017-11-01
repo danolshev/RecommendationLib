@@ -17,12 +17,12 @@
     ],
     "autoload": {
         "psr-4": {
-          "Recommendations\\": "src/"
+          "Recommendation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Recommendations\\Tests\\": "tests/"
+            "Recommendation\\Tests\\": "tests/"
         }
     }
 }
