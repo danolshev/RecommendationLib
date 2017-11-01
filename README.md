@@ -8,6 +8,7 @@
    
    $recommendation->addDetailView('first-1', 'new-item-1', ['timestamp' => "2014-07-20T02:49:45+02:00", 'cascadeCreate' => true]);
    
-   $recommendation->AddPurchase("2c169e575644d840838e", "xyz", ['timestamp' => "2015-09-10T04:29:55+02:00", 'cascadeCreate' => true]);
+   $recommendation->AddPurchase("2c169e575644d840838e-user", "xyz", ['timestamp' => "2015-09-10T04:29:55+02:00", 'cascadeCreate' => true]);
    
+   $recommendation->addRating("2c169e575644d840838e-user", "xyz", 1.0,  ['cascadeCreate' => true]);
 ```
